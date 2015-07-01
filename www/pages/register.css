@@ -1,0 +1,15 @@
+#register{
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #423143;
+    padding: 10px;
+}
+.bttn{
+    width: auto;   
+/*    background-color: gray;*/
+    color: white;
+    border: 0px; 
+}
