@@ -1,0 +1,43 @@
+<form role="form" id="regsn_form"  data-validate="parsley">
+   <div class="row">
+    <div class=" col-xs-1 col-sm-3 col-lg-4"></div>
+    <div id="register" class="col-xs-10 col-sm-6 col-lg-4">
+               
+        <div class="form-group">
+<!--            <h3>Register</h3>-->
+        </div>    
+        <div class="form-group">
+<!--            <label>User Name:</label>-->
+            <input type="text" class="form-control" id="reg_usr_name" ng-model="user.username" data-required="true" placeholder="User Name" name="usrName">
+        </div>
+        <div class="form-group">
+<!--            <label for="emlId">Email Id:</label>-->
+            <input type="text" class="form-control" id="reg_emlId" ng-model="user.useremailId" data-required="true" data-type="email" data-trigger="change" placeholder="Email Id" name="usrEmail"/>
+        </div>
+        <div class="form-group">
+<!--            <label for="cntctno">Contact Number:</label>-->
+            <input type="text" class="form-control" id="reg_cntctno" ng-model="user.usercntactNo" data-required="true"  placeholder="Contact Number" name="usrCntact">
+        </div>
+        <div class="form-group">
+<!--            <label for="pwd">Password:</label>-->
+            <input type="password" class="form-control" id="reg_pwd" ng-model="user.userpassword" data-required="true" placeholder="Password" name="usrPsswrd">
+        </div>
+        <div class="form-group">
+<!--            <label for="conpwd"> Conform Password:</label>-->
+            <input type="password" class="form-control" id="conpwd" required placeholder="Conform Password">
+        </div>
+        <div class="form-group ">
+            <button  class="btn  btn-default bttn" id="new_reg"   name="register" value="Register">Register</button>
+            </div>
+            <div>{{user}}</div>
+            <div id="result"></div>
+        <div class="form-group ">
+            <a  class=" btn btn-default bttn" ui-sref="login"> Cancel</a>
+        </div >
+    </div>
+        </div>
+        <script >
+        
+    </script>
+     
+</form>

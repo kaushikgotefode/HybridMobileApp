@@ -1,0 +1,31 @@
+#welcome{
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    position: relative;
+}
+#welcome h4{
+        text-align: left;
+        color: #277594
+    } 
+#welcomeform{
+    text-align: center;
+    border: 0px;
+}
+
+.welcome_logo img{
+/*
+    background-image: url(img/Clarice-logo.png);
+    background-size: cover;
+*/
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+.slogan{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}

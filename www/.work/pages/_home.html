@@ -1,0 +1,48 @@
+<nav class="navbar navbar-inverse navbar-fixed-top"> 
+ <div class="container"> 
+  <div class="navbar-header"> 
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+   <a class="navbar-brand" ui-sref="login">Hybrid Mobile App</a> 
+  </div> 
+  <div class="collapse navbar-collapse" id="myNavbar"> 
+   <ul class="nav navbar-nav navbar-right"> 
+    <li><a href="">Profile</a></li> 
+    <li><a href="">Friend Suggestion</a></li> 
+    <li><a href="">Friend List</a></li> 
+    <li><a ui-sref="login">Sign out</a></li> 
+   </ul> 
+  </div> 
+ </div> 
+</nav> 
+<div> 
+ <form role="form" id="homeform"> 
+  <div class="row"> 
+   <div class=" col-xs-1 col-sm-3 col-lg-4"></div> 
+   <div id="register" class="col-xs-10 col-sm-6 col-lg-4"> 
+    <div class="form-group"> 
+     <h3>User Detail</h3> 
+    </div> 
+    <div class="form-group"> 
+     <label>User Name</label> 
+     <input type="text" class="form-control" id="usr-data" /> 
+    </div> 
+    <!--        <div id="readdata">{{ user.userName + ' ' + user.email }}</div>--> 
+    <!--
+        <script>
+            function myFunction(arr) {
+            debugger;
+            var out;
+             var i;
+            debugger;
+            for(i = 0; i < arr.length; i++) {
+                out= '<p> Welcome ' + arr[i].userName + ' ' + arr[i].password + ' !</p>';
+                 alert(out);              $("#readdata").html(out);
+            }
+        }
+        </script>
+        
+--> 
+   </div> 
+  </div> 
+ </form> 
+</div>

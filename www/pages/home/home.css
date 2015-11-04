@@ -1,0 +1,37 @@
+#home{
+    
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+  //  background-color: #277594;
+    //background-color: gray;
+    padding: 10px;
+    border: 1px solid lightgray
+}
+.homecontent{
+margin-top: 50px;
+}
+
+.profile_pic img{
+    width: 70px;
+    height: 70px;
+}
+.logo img{
+    margin-top:-10px;
+    width: 100px;
+    height: 40px;
+}
+#sidemenu{
+    border: 0px;
+}
+dt{
+    color: blueviolet;
+}
+
+#sidemenu img{
+    border: 1px solid lightgray;
+}
+blockquote{
+ border: 1px solid lightgray;
+}

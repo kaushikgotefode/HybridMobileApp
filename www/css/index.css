@@ -1,31 +1,30 @@
-body{
-    background-color: #292931;
+html body{
+    background-color: #eee;
 }
-#register{
-    
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    background-color: #423143;
-    padding: 10px;
+
+
+#sidemenu{
+    margin-top: 50px;
+    border: 1px solid lightgray;
 }
-#login{
-    
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    background-color: #423143;
-    padding: 10px;
-}
+
 input{
     
 }
 .bttn{
     width: 50%;
-    background-color: #6B4965;
+    background-color: #3388bb;
     color: white;
     border: 0px; 
     color: white;
 }
+form div{
+    border-radius: 5px;
+
+}
+
+
+form h3{
+    color: black;
+}
+
